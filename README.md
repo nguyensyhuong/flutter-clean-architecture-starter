@@ -3,6 +3,7 @@
 Production-ready Flutter starter template built with Clean Architecture principles and a scalable project structure.
 
 Designed for:
+
 - Scalable mobile applications
 - Production systems
 - Team collaboration
@@ -21,31 +22,6 @@ This architecture improves:
 - Separation of concerns
 
 The project is structured to support production-grade Flutter applications with long-term maintainability in mind.
-
-## Demo Priority
-
-### Priority right now
-
-1. Add GIF demo. This is the most important.
-
-The repo still feels static.
-GIF builds trust very quickly.
-
-The demo should show:
-
-- splash
-- login
-- loading
-- success state
-- navigation
-
-Keep it short, around 5 to 10 seconds.
-
-Recommended tools:
-
-- Screen Studio
-- Kap
-- LiceCap
 
 ## Demo
 
@@ -117,16 +93,3 @@ lib/
 ├── shared/
 └── main.dart
 ```
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
