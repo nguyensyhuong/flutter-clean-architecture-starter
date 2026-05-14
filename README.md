@@ -1,6 +1,14 @@
-# flutter_clean_architecture_starter
+# Flutter Clean Architecture Starter
 
-A new Flutter project.
+Production-ready Flutter starter template built with Clean Architecture principles and a scalable project structure.
+
+Designed for:
+- Scalable mobile applications
+- Production systems
+- Team collaboration
+- Maintainable codebases
+
+---
 
 ## Why Clean Architecture?
 
@@ -69,13 +77,46 @@ This architecture solves:
 ## Tech Decisions
 
 ### Why Feature-First Structure?
+
 Improves scalability and module isolation for growing applications.
 
 ### Why Clean Architecture?
+
 Creates testable and maintainable business logic.
 
 ### Why Repository Pattern?
+
 Separates data sources and simplifies API management.
+
+---
+
+## Features
+
+- Clean Architecture
+- Feature-first structure
+- Repository pattern
+- State management
+- Dependency injection
+- API layer abstraction
+- Error handling
+- Environment configuration
+- Scalable navigation
+- Production-ready folder structure
+
+---
+
+## Architecture
+
+```bash
+lib/
+├── core/
+├── features/
+│   ├── auth/
+│   ├── home/
+│   └── splash/
+├── shared/
+└── main.dart
+```
 
 ## Getting Started
 
